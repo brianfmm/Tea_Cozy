@@ -1,0 +1,200 @@
+
+/* Who ever reviews my code. Thank you for your help! I know I have some repeating styles and I am unclear how to clean it up, or what is the best practice for setting up CSS selector. This projust took a lot out time to figure out.  */
+
+body {
+  margin: 0 auto;
+  font-family: 'Neuton';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3, h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* header———————————--------------------------—————— */
+
+header {
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  top: 0px;
+  height: 69px;
+  justify-content: space-between;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+header .logo {
+  min-width: 400px;
+  margin: 20px;
+}
+
+header img {
+  height: 50px;
+}
+
+header a {
+  font-weight: 400;
+  color: seashell;
+  padding: 20px;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+header a:hover {
+  color: grey;
+}
+
+/* all containers———————————--------------------------—————— */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 0px;
+  background-color: black;
+}
+
+/* containers-one-----------------------------*/
+
+.container-one {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width:1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: seashell;
+  padding-bottom: 0px;
+  padding-top: 70px;
+}
+
+.container-one .copy {
+  color: seashell;
+  text-align: center;
+  background-color: black;
+  opacity: 0.85;
+  width: 1200px;
+}
+
+/* containers-two-----------------------------*/
+
+.container-two {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container-two .copy {
+  color: seashell;
+  text-align: center;
+  width: 1000px;
+}
+
+.container-two img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.container-two h3 {
+  text-align: center;
+  color: seashell;
+  margin-top: 0px;
+}
+
+.container-two .row-one {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+}
+
+.container-two .row-two {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+}
+
+/* containers-three-----------------------------*/
+
+.container-three {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: seashell;
+}
+
+.container-three .copy {
+  text-align: center;
+  width: 1200px;
+}
+
+.container-three .row-one {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+
+.container-three .row-one {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.container-three .row-one-box {
+  width: 300px;
+  height: 300px;
+  background: rgba(0, 0, 0, 1);
+  margin: 10px 40px;
+
+}
+
+.container-three .row-one-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-three .location {
+  font-size: 25px;
+}
+/* containers-four----------------------------*/
+
+.container-four {
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: seashell;
+}
+
+.container-four .copy {
+  text-align: center;
+  width: 1200px;
+}
+
+.container-four .copyright {
+  width: 1200px;
+}
