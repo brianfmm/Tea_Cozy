@@ -95,7 +95,7 @@ header a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 1200px;
+  width: 1000px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -103,7 +103,7 @@ header a:hover {
 .container-two .copy {
   color: seashell;
   text-align: center;
-  width: 1200px;
+  width: 1000px;
 }
 
 .container-two img {
@@ -121,12 +121,12 @@ header a:hover {
 .container-two .row-one {
   display: flex;
   justify-content: center;
-  width: 1200px;
+  width: 1000px;
 }
 
 .container-two .row-two {
   display: flex;
-  width: 1200px;
+  width: 1000px;
   justify-content: center;
 }
 
